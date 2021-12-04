@@ -1,6 +1,9 @@
 //export router from express
 const { Router } = require("express");
 
+//import book routes
+const bookRoutes = require("./bookRoutes");
+
 //create a router
 const router = Router();
 

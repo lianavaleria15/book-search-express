@@ -1,6 +1,9 @@
 //export router from express
 const { Router } = require("express");
 
+//import api routes
+const apiRoutes = require("./api");
+
 //create a router
 const router = Router();
 
